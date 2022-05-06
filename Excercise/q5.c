@@ -1,8 +1,8 @@
 //Q5.
 
 #include<stdio.h>
-#define NEW_LINE printf("\n");
-#define BLANK_LINES(n) {int i; for(i=0;i<n;i++) printf("\n");}
+#define NEW_LINE printf("\n");                                        //this is for giving a new line
+#define BLANK_LINES(n) {int i; for(i=0;i<n;i++) printf("\n");}           //n number of line blanks
 
 int main()
 {
