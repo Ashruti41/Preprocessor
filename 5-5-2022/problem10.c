@@ -12,3 +12,8 @@ int main()
     #endif
     printf("hi");
 }
+
+
+/*OUTPUT:
+hi
+*/
