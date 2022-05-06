@@ -19,3 +19,9 @@ int main()
     printf("a = %d,b=%d\n",a,b);
     printf("Program completed");
 }
+
+/*OUTPUT:
+Value of FLAG is less than 3
+a = 16,b=4
+Program completed
+*/
