@@ -6,12 +6,12 @@
 int main()
 {
     int a=20,b=4;
-    #ifdef FLAG
+    #ifdef FLAG                                          //for particular operation of FLAG
     printf("FLAG is defined\n");
     a++;
     b++;
     #endif
-    #undef FLAG
+    #undef FLAG                                         //use for undefined FLAG
     #ifdef FLAG
     printf("Prepocessor\n");
     a++;
@@ -20,3 +20,10 @@ int main()
     printf("a=%d, b=%d\n",a,b);
     printf("Program completed\n");
 }
+
+
+/* OUTPUT:
+FLAG is defined
+a=21, b=5
+Program completed
+*/
