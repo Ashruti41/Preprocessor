@@ -27,3 +27,8 @@ int main()
     printf("a = %d,b=%d\n",a,b);
     printf("Program completed");
 }
+/*OUTPUT:
+Value of FLAG is One
+a = 19,b=3
+Program completed
+*/
