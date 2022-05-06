@@ -12,3 +12,7 @@ int main()
     else
     printf("Scored a century");
 }
+
+/* OUTPUT:
+Scored a century
+*/
