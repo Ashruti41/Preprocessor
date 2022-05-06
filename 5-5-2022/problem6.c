@@ -15,3 +15,7 @@ int main()
     #endif
     
 }
+
+/*OUTPUT:
+macro has been defined
+*/
