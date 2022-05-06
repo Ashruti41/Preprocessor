@@ -1,4 +1,5 @@
 //understand nesting in macros
+//program for check character is an alphanumeric or not
 
 #include <stdio.h>
 #define ISLOWER(c) (c>=97 && c<=122)
@@ -18,3 +19,13 @@ int main()
     printf("%c is not an alphanumeric character\n",ch);
     
 }
+
+/* OUTPUT:
+Enter a character: 
+B
+B is an alphanumeric character
+or
+Enter a character: 
+$
+$ is not an alphanumeric character
+*/
