@@ -8,3 +8,10 @@ int main()
     printf("%s\n",__FILE__);
     printf("%s\n",__LINE__);
 }
+
+
+/* OUTPUT:
+May  6 2022
+06:10:55
+main.c
+*/
