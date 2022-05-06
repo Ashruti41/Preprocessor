@@ -1,8 +1,8 @@
 //Q6
 
 #include<stdio.h>
-#define INFINITE while(1)
-#define CHECK(a) if(a==0) break
+#define INFINITE while(1)                                       //while(1) for infinite loop
+#define CHECK(a) if(a==0) break                                //when given number is decrease as 0 than loop will break
 int main()
 {
     int x=5;
