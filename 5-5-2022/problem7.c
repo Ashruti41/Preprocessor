@@ -1,4 +1,5 @@
 //Stringizing Operator(#) stringizes in macro argument.
+//string format output
 
 #include<stdio.h>
 #define str(s) #s
@@ -12,4 +13,10 @@ int main()
   message(Ashruti,Shah);
 }
 
+/*OUTPUT:
+India
+1234
+12.34
+Ashruti_Shah
+*/
   
