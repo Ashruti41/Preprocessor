@@ -8,3 +8,6 @@ int main()
 
     return 0;
 }
+
+/* OUTPUT:
+I understand the use of #define */
