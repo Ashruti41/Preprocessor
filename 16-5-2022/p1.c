@@ -17,3 +17,7 @@ int sum(int a, int b)         //function defination
     add = a + b;
     return add;
 }
+
+/*output:
+Sum=5
+*/
