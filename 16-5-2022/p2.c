@@ -20,3 +20,7 @@ int find(int n)         //function defination
     printf("the number is odd");
     
 }
+/*output:
+Enter the number: 2
+the number is even
+*/
